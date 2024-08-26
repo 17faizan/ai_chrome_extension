@@ -19,7 +19,7 @@ async function summarizeText(text) {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': `Bearer YOUR_OPENAI_API_KEY`
+      'Authorization': `Bearer openai_key`
     },
     body: JSON.stringify({
       model: "text-davinci-003",
